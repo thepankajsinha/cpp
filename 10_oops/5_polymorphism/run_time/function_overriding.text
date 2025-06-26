@@ -1,0 +1,15 @@
+Function overriding:
+
+When we define the same function in both the base and the child class and when we call this function using the object of the child class then the function of the child class executes always.Hence the function of base class is override by child class function.
+
+How to access the override base class function:
+
+Method 1:
+
+Create base class object and then call the override function.
+
+Method 2:
+
+To access override base class function using child class object then we have to follow some syntax:
+
+childClassObject.baseClass::function();

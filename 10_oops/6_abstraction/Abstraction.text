@@ -1,0 +1,24 @@
+Abstract class:
+
+1.A class containing pure virtual function is called Abstract class.
+
+2.We cannot create objects of an abstract class.
+
+3.To use abstract class we need to derive it and use their data members and member functions (except pure virtual functions).
+
+
+Use of Abstract class:
+
+To implement abstraction.
+
+
+
+
+Pure virtual function:
+
+A virtual function that is declared in the base class without its implementation is called pure virtual function.
+
+Use of Pure virtual function:
+
+If a function doesn't have any use in the base class
+but the function must be implemented by all its derived classes.

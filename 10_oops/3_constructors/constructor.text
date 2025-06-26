@@ -1,0 +1,33 @@
+Constructors:
+
+1.Constructors are special member functions which is used to initialize objects of a class.
+
+2.A constructor always has the same name as the class it belongs to.
+
+3.Constructors do not have a return type, not even void.
+
+4.Constructors are automatically called when an object is created.
+
+5.Constructors can be overloaded, meaning you can have multiple constructors with different parameter lists.
+This allows for flexibility in object creation with different initial values.
+
+Types of Constructors:
+
+1.Default Constructor:
+
+-A constructor that takes no arguments.
+
+-It is used to initialize objects with default values when no arguments are provided during the creation of an object.
+
+-If no constructor is provided, the compiler automatically generates a default constructor.
+
+
+
+2.Parameterized Constructor:
+
+-A constructor that takes parameter to initialize object member.
+
+-It allows you to initialize an object with specific values at the time of its creation.
+
+3.Copy Constructor:
+A special constructor that creates a new object as a copy of an existing object. 

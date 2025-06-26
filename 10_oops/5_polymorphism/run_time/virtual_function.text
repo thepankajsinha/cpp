@@ -1,0 +1,8 @@
+Use of virtual function:
+
+If we want to create a pointer of base class to point an object of child class and when we call the function using base class pointer then it calls the function of the Base class not the child class function.
+
+How to avoid this:
+
+To avoid this, we declare the function of the Base class as virtual by using the virtual keyword.
+
