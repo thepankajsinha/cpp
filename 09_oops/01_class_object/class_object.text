@@ -1,0 +1,17 @@
+✅ Class
+A class is a user-defined blueprint or template that defines the structure and behavior (data + functions) of an object.
+
+It defines:
+Data members (variables)
+Member functions (methods)
+But it does not occupy memory until objects are created from it.
+
+
+
+
+✅ Object
+An object is an instance of a class. When a class is defined, no memory is allocated. But when an object is created, memory is allocated for its data members.
+
+Each object:
+Has its own copy of the data members.
+Can call the class’s member functions.

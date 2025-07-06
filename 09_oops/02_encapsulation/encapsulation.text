@@ -1,0 +1,15 @@
+✅ What is Encapsulation ?
+
+Wrapping data members and member functions into a single unit (class) and hiding the internal details from outside access.
+
+✅ How Encapsulation is acheived?
+
+Defining a class.
+Making data members private.
+Providing public getter/setter methods.
+
+
+✅ Benefit:
+
+Protects data from unauthorized access (security)
+Makes code easier to maintain

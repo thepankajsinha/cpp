@@ -1,0 +1,7 @@
+✅ What is inheritance ?
+
+When One class (child) inherits properties(data members) and behavior(member functions) from another class (parent) is called as inheritance.
+
+✅ Benefit:
+
+Promotes code reuse
