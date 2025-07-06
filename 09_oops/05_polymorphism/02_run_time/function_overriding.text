@@ -1,15 +1,14 @@
-Function overriding:
+✅ What is function overriding ?
 
-When we define the same function in both the base and the child class and when we call this function using the object of the child class then the function of the child class executes always.Hence the function of base class is override by child class function.
+Function Overriding allows a derived class to redefine the function which is already is defined in the base class so that it provides specific behavior when called through a base class pointer or reference.
 
-How to access the override base class function:
 
-Method 1:
 
-Create base class object and then call the override function.
+✅ What required for function overriding ?
 
-Method 2:
+Inheritance + virtual function in base class
 
-To access override base class function using child class object then we have to follow some syntax:
 
-childClassObject.baseClass::function();
+✅ Benefits ?
+
+To acheive polymorphism

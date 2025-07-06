@@ -1,33 +1,41 @@
-//Here, print method is present in both the base and child class and when we called the print method using child object c1 then it execute child class print method.
-
-
 #include <iostream>
 using namespace std;
 
-class Base {
-   public:
-    void print() {
-        cout << "I am Base Function" << endl;
+class Animal{
+public:
+    virtual void sound(){ // virtual function in base class
+        cout << "Animal makes a sound" << endl;
     }
 };
 
-class Child : public Base {
-   public:
-    void print() {
-        cout << "I am child Function" << endl;
+class Dog : public Animal{
+public:
+    void sound()
+    { // same function name as base class, overriding it
+        cout << "Dog barks" << endl;
     }
 };
 
-int main() {
-    Child c1;
-    c1.print(); //I am child Function
+class Cat : public Animal
+{
+public:
+    void sound()
+    { // overriding without 'override' keyword
+        cout << "Cat meows" << endl;
+    }
+};
 
-    //How to access override base function
-    //Method 1:
-    Base b1;
-    b1.print();  //I am Base Function
+int main()
+{
+    Animal *a;
 
-    //Method 2:
-    c1.Base::print();  //I am Base Function
+    Dog d;
+    Cat c;
+
+    a = &d;
+    a->sound(); // Output: Dog barks
+
+    a = &c;
+    a->sound(); // Output: Cat meows
 
 }
