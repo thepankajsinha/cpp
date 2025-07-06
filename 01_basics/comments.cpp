@@ -2,5 +2,6 @@
 using namespace std;
 
 int main(){
-    cout<<"Comments"; //This is a comment
+    // This is a single-line comment
+    cout<<"Comments"; //This is a comment    
 }

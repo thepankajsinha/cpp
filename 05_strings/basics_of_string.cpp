@@ -5,17 +5,19 @@ int main()
 {
 
     // take single word as input
+    string firstName;
+    cin >> firstName;
 
-    // string firstName;
-    // cin >> firstName;
-    // cout << firstName;
-    // Pankaj
+    //print out the string
+    cout << firstName;
     // Pankaj
 
-    // take full line of text as input
+
+    // take multiple words as input
     string fullName;
     getline(cin, fullName);
+
+    //print out the string
     cout<<fullName;
-    // Pankaj kuamr
     // Pankaj kuamr
 }

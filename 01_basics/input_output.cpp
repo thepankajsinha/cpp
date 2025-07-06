@@ -3,15 +3,20 @@ using namespace std;
 
 int main(){
     int num1, num2;
+
+    // Taking input from user
     cout<<"Enter num1: ";
     cin>>num1;
+
+    cout<<endl; // use endl to move to the next line
 
     cout<<"Enter num1: ";
     cin>>num2;
 
-    int sum = num1 + num2;
+    cout<<endl;
 
-    cout<<"Sum is "<<sum;
+    //print the output
+    cout<<"Sum is "<<num1 + num2;
 
 }
 
