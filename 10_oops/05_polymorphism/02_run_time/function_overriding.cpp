@@ -16,26 +16,9 @@ public:
     }
 };
 
-class Cat : public Animal
-{
-public:
-    void sound()
-    { // overriding without 'override' keyword
-        cout << "Cat meows" << endl;
-    }
-};
-
 int main()
-{
-    Animal *a;
+{   
 
-    Dog d;
-    Cat c;
-
-    a = &d;
-    a->sound(); // Output: Dog barks
-
-    a = &c;
-    a->sound(); // Output: Cat meows
-
+    Animal* ptr = new Dog(); // base class pointer to derived class object
+    ptr->sound(); // Output: Dog barks
 }
